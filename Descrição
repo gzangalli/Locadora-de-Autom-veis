@@ -1,0 +1,25 @@
+O Problema:
+
+Você trabalha em uma empresa de informática que foi contratada para informatizar uma locadora de automóveis.
+
+Nessa locadora os automóveis são classificados como populares, médios e grandes (use uma classe específica para  cada tipo de automóvel) e o valor da diária é determinado da seguinte forma:
+
+    para carros populares há um valor base único
+    para carros médios, há um valor base que é reduzido em 2% para cada ano de idade do modelo, limitado a um desconto de 10%
+    para carros grandes, o valor base é relativo a carros com capacidade para 5 pessoas. Para cada pessoa a mais há um acréscimo de 5%, limitado a 20%   
+
+A locadora precisa organizar informações sobre:
+
+    Clientes
+    Automóveis disponíveis
+    Processo de locação/devolução
+
+O sistema para a locadora precisa fornecer uma interface de usuário simples incluindo as seguintes Funcionalidade.
+
+    1.Cadastrar Cliente (nome, cpf)
+    2.Cadastrar Automóvel (placa, tipo, ano do modelo, capacidade de pessoas e valor base da diária)
+    3.Alugar um automóvel informando: cpf do cliente, valor máximo de diária, capacidades de pessoas requerida e número de dias (a data e hora atuais determinam o início do período de locação)
+        o sistema deve mostrar uma lista dos automóveis disponíveis com as restrições definidas e o usuário seleciona um deles.
+    4.Devolver um automóvel informando a data da devolução
+        O sistema deve informar o valor a ser pago, incluindo 20% a mais por diária além da data de devolução determinada
+    5.Sair
